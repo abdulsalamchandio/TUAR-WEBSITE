@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>registration</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend>FORM REGISTRATION</legend>
+                <form>
+                    <label>Name:<input placeholder="Name"/></label>
+<br /><br />
+                    <label>G-Mail: <input type="email" placeholder="G-male" required/></label>
+<br /><br />
+                    <label>Date of Birth:<input type="date"/></label>
+<br /><br />
+                    QUALIFICATION: 
+                    <select>
+                        <option>Matric</option>
+                        <option>Intermediate</option>
+                        <option>Bachlor</option>
+                        <option>Masters</option>
+                    </select>
+<br /><br />
+                                                    <!-- RADIO CODE -->                    
+                    <p>
+                        GENDER: 
+                        <input id="male" type="radio" name="gender" value="m" /><label for="male">Male</label>
+                        <input id="female" type="radio" name="gender" value="f" /><label for="female">Female</label>
+                    </p>
+                                                    <!-- CHECKBOX CODE -->
+                    <p>
+                    LIST CITIES:
+<br />
+                    <input id="nawabshah" type="checkbox" name="city" value="nawabshah" /><label for="nawabshah">Nawabshah</label>
+<br />
+                    <input id="dadu" type="checkbox" name="city" value="dadu" /><label for="dadu">Dadu</label> 
+<br />
+                    <input id="karachi" type="checkbox" name="city" value="karachi" /><label for="karachi">Karachi</label>
+                    
+                    </p>
+                       <label>COMMENT:<br /><textarea rows="5" id="Comment"></textarea></label>   <!--use for comment section -->
+<br />
+                    <button>SUBMIT</button>
+                </form>
+        </fieldset>
+    </body>
+</html>

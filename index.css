@@ -1,0 +1,13 @@
+h1{
+    color: blue;
+}
+
+.child{
+    display: inline-block;
+  
+    width: 370px;
+}
+
+.child2{
+    height: 200px;
+}
